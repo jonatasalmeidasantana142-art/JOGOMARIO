@@ -1,3 +1,8 @@
 # JOGOMARIO
 jogomario
-## Integrantes | Nome           | Matrícula | Papel         | |----------------|-----------|---------------| | João da Silva  | 123456    | Scrum Master  | | Maria Santos   | 234567    | Documentador  | | Pedro Oliveira | 345678    | Desenvolvedor | | Ana Costa      | 456789    | Desenvolvedor | | Carlos Souza   | 567890    | Testador      | | Juliana Lima   | 678901    | Testador      |
+
+Integrantes 
+| Nome           | Matrícula | Papel         | |----------------|-----------|---------------|
+|Jônatas         | 01943745  | Scrum Master  |  
+|Rafaela         | 234567    | testador      |
+|Nathanael       | 345678    | testador      | 
