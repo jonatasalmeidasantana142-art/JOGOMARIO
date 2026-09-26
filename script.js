@@ -1,5 +1,11 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const backgroundMusic = document.querySelector('.background-music');
+
+const startBackgroundMusic = () => {
+    backgroundMusic.muted = false;
+    backgroundMusic.play().catch(() => {});
+};
 
 const pulo = (evento) => {
 
@@ -43,3 +49,5 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', pulo);
+document.addEventListener('keydown', startBackgroundMusic, { once: true });
+document.addEventListener('pointerdown', startBackgroundMusic, { once: true });
