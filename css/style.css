@@ -38,7 +38,7 @@
     width: 560px;
     position: absolute;
     top: 0;
-    animation: animacao-clouds 10s infinite linear;
+    animation: animacao-clouds 20s infinite linear;
 }
 
 
@@ -72,7 +72,7 @@
 
 @keyframes animacao-clouds {
     from {
-        left: 100%;
+        left: 102%;
     }
     to {
         left: 0%;
