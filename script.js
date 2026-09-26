@@ -14,13 +14,22 @@ const pulo = (evento) => {
 };
 
 const loop = setInterval(() => {
-    const pipePosition = pipe.offsetLeft;
+    
+    console.log('loop');
 
-    if (pipePosition <= 130) {
+    const pipePosition = pipe.offsetLeft;
+    const marioPosition = +window.getComputedStyle(mario).bottom.replace
+    ('px', '');
+
+
+    if (pipePosition <= 243 && pipePosition > 0 && marioPosition < 130) {
 
     pipe.style.animation = 'none';
     pipe.style.left = `${pipePosition}px`;
 
+    mario.style.animation = 'none';
+    mario.style.bottom = `${marioPosition}px`;
+    
     }
 
 }, 10);
